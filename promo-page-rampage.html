@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,21 +20,40 @@
         .card-body{width: 100%;  background-color: #fff; color:#000; border:1px solid gray; font-size: 18px; }
         .card-header{width: 100%;  background-color: #0B1921;
             color: #327DC0;
-            height: 66px; }
+            height: 66px; margin:5px}
         .card-header:hover{
             background-color: #327DC0;
         }
+        .accordion-title{float:left; margin-top:5px !important; font-weight: bold;}
 
         .container{    width: 1140px !important;
             margin: auto !important;
             position: relative;!important;}
-        /*header .dropdown_menu{max-height: 400px}*/
-        /*#header_nav{height:700px}*/
-
-
-
-        /*header #tickets_dropdown_menu .right .tickets_dropdown_menu_block{height:250px; width:260px}*/
-        /*header #schedule_dropdown_menu .right #schedule_dropdown_menu_games{padding-left:20px}*/
+        
+        
+        
+        /*THIS FIXES THE NAVBAR*/
+        header .dropdown_menu{max-height: 400px}
+        #header_nav{height:700px}
+        header #tickets_dropdown_menu .right .tickets_dropdown_menu_block{height:250px; width:260px}
+        header #schedule_dropdown_menu .right #schedule_dropdown_menu_games{padding-left:20px}
+        header #team_dropdown_menu .right{padding:0 !important}
+        header #team_dropdown_menu .right .tickets_dropdown_menu_block .inner{padding:5px 15px 50px 15px;}
+        header #team_dropdown_menu .right .tickets_dropdown_menu_block {padding:0 !important;}
+        header #fans_dropdown_menu .right .tickets_dropdown_menu_block .inner{padding: 0px 30px 0 30px!important;}
+        header #community_dropdown_menu .right .tickets_dropdown_menu_block .inner{padding: 0px 5px 5px 5px !important;}
+        header #tickets_dropdown_menu .right .tickets_dropdown_menu_block .inner {padding: 5px 30px 0 30px !important;}
+        header #connect_dropdown_menu .right .tickets_dropdown_menu_block .inner {padding: 5px 30px 50px 30px;}
+        header #community_dropdown_menu .right .tickets_dropdown_menu_block {
+            padding: 0 !important;}
+        #team_dropdown_menu .right .tickets_dropdown_menu_block {
+            padding: 5px 15px 45px 15px !important;}
+        header #team_dropdown_menu .right .tickets_dropdown_menu_block {
+            padding: 5px 15px 50px 15px !important;}
+        header #team_dropdown_menu .right .tickets_dropdown_menu_block {
+            padding: 5px 15px 50px 15px !important;}
+        #team_dropdown_menu .right .tickets_dropdown_menu_block {
+            padding: 5px 15px 50px 15px !important;}
 
         #title{display: none !important}
         .constant:hover{background-color: #0B1921 !important}
@@ -67,32 +85,32 @@
 <h1>Promo Schedule</h1>
 <h1>Weekly Promotions</h1>
 <div class="">
-    <h5 class="mb-0 titles">
+    <h4 class="mb-0 titles">
         <span style="text-decoration: underline ">Fridays</span>:  $1 Drink Night presented by Bud Light
-    </h5>
+    </h4>
 </div>
 
 <div class="">
-    <h5 class="mb-0 titles" >
+    <h4 class="mb-0 titles" >
         <span style="text-decoration: underline ">Saturdays</span>:  Ticket + 2 Beers. Add two 16oz. beers to any ticket for just $6
-    </h5>
+    </h4>
 </div>
 
 <div class="" >
-    <h5 class="mb-0 titles">
+    <h4 class="mb-0 titles">
         <span style="text-decoration: underline ">Sundays</span>:  Sunday Funday presented by Raising Cane's - Access the pregame skate -OR- Add a soda and choice of jumbo hot dog or nachos for just $3
-    </h5>
+    </h4>
 </div>
 
 <h1>Promotional Nights</h1>
 <div class= id="accordion" style="margin:0 auto">
     <div class="card">
         <div class="card-header btn btn-link collapsed" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;"  data-toggle="collapse"data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 October 6, 2018:
                     Opening Night
-               
-            </h5>
+
+            </h4>
         </div>
         <div id="collapseOne" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -112,11 +130,11 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;" class="" data-toggle="collapse"data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 October 26, 2018:
                     Día de Los Muertos
 
-            </h5>
+            </h4>
         </div>
         <div id="collapseTwo" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -132,11 +150,11 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;" data-toggle="collapse"data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 November 11, 2018:
                     Cool School Day
 
-            </h5>
+            </h4>
         </div>
         <div id="collapseThree" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -152,11 +170,11 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" id="headingFour" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;" data-toggle="collapse"data-target="#collapseFour" aria-expanded="true" aria-controls="collapseOne">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 November 17, 2018:
                     Hockey Fights Cancer
 
-            </h5>
+            </h4>
         </div>
         <div id="collapseFour" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -172,11 +190,11 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" id="headingFive" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;" data-toggle="collapse"data-target="#collapseFive" aria-expanded="true" aria-controls="collapseOne">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 December 8, 2018:
                     Teddy Bear Toss
-                
-            </h5>
+
+            </h4>
         </div>
         <div id="collapseFive" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -194,11 +212,11 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;"  data-toggle="collapse"data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 December 14, 2018:
                     Ugly Sweater Night
 
-            </h5>
+            </h4>
         </div>
         <div id="collapseSix" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -214,11 +232,11 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed"  style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;"  data-toggle="collapse"data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 February 1, 2019:
                     Pink in the Rink
-                
-            </h5>
+
+            </h4>
         </div>
         <div id="collapseSeven" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -234,12 +252,12 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;"  data-toggle="collapse"data-target="#collapseEight" aria-expanded="true" aria-controls="collapseSeven">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 March 1, 2019:
                     Military Appreciation
 
-               
-            </h5>
+
+            </h4>
         </div>
         <div id="collapseEight" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -255,11 +273,11 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;" data-toggle="collapse"data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 March 24, 2019:
                     Pucks and Paws
-                
-            </h5>
+
+            </h4>
         </div>
         <div id="collapseNine" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -275,11 +293,11 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;" class="" data-toggle="collapse"data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 April 6, 2019:
                     First Responders Night
 
-            </h5>
+            </h4>
         </div>
         <div id="collapseTen" class="collapse" data-parent="#accordion">
             <div class="card-body">
@@ -295,16 +313,16 @@
 
     <div class="card">
         <div class="card-header btn btn-link collapsed" style="font-family: 'Titillium Web', sans-serif; color: #fff; font-size:20px; font-weight:bold; padding:18px;" class="" data-toggle="collapse"data-target="#collapseEleven" aria-expanded="true" aria-controls="collapseEleven">
-            <h5 class="mb-0">
+            <h4 class="accordion-title">
                 April 12, 2019:
                     Fan Appreciation Night
-            </h5>
+            </h4>
         </div>
         <div id="collapseEleven" class="collapse" data-parent="#accordion">
             <div class="card-body">
                 <ul class="info-ul">
                     <li class="info-li" style="list-style-type: disc">The San Antonio Rampage will celebrate their loyal supporters with Fan Appreciation Night when they host the Texas Stars in the final home game of the season at 7:30 p.m. on Friday, April 14.</li>
-                    <li class="info-li" style="list-style-type: disc">Follow @SARampage on <a href="https://twitter.com/sarampage" target="_blank" style="font-weight: bold">Twitter</a> and <a href="https://www.instagram.com/sarampage/" target="_blank" style="font-weight: bold">Instagram</a> and San Antonio Rampage on Facebook for the chance to score one of hundreds of prizes!</li>
+                    <li class="info-li" style="list-style-type: disc">Follow @SARampage on <a href="https://twitter.com/sarampage" target="_blank" style="font-weight: bold">Twitter</a> and <a href="https://www.instagram.com/sarampage/" target="_blank" style="font-weight: bold">Instagram</a> and San Antonio Rampage on <a href="https://facebook.com/sarampagehockey" target="_blank" style="font-weight: bold">Facebook</a> for the chance to score one of hundreds of prizes!</li>
 
                 </ul>
             </div>
