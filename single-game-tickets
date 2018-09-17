@@ -1,0 +1,746 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--START COPYING CODE BELOW!!!!!-->
+<!-- Bootstrap core CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+    .row {margin:0;}
+    .plan {background-color:#fff;padding:3em;margin-bottom:2em;}
+    .plan2 {background-color:#fff;padding:3em;}
+    .gamerow {padding:1em 0;vertical-align:middle;text-align:center;border-bottom:1px solid #ddd;}
+    .logoimg img{max-width:60px;}
+    .header1 {background-color:#333;padding: .1em 0 1em 0;text-align:center;}
+    .header2 {background-color:#AF0002;padding:2em;margin:-3em -3em 1em -3em;text-align:center;}
+    .header3 {background-color:#ddd;padding:2em;margin:-3em -3em 1em -3em;text-align:center;}
+    .date,.day,.time {padding:5px 0;}
+    .purchase {margin:0em -3em -3em -3em;}
+    .purchase .btn {width:100%;padding:2em 0;border-radius:0;font-weight:bold;}
+    @media (min-width:990px) {
+        .plan {border-right:1px solid #bbb;}
+        .column1 {border-right:1px solid #ddd;}
+    }
+    @media (min-width:768px) {
+        .opponent {padding:1.4em 0;}
+    }
+    @media (max-width:768px) {
+        .opponent {display:none;}
+    }
+    .theme {text-align:center;padding-bottom:1em;}
+    .btn-success {padding:1em;}
+
+</style>
+
+<h3>Promotions:</h3>
+<p><strong>Fridays:</strong> $1 Drink Night presented by Bud Light</p>
+<p><strong>Saturdays:</strong> Ticket + 2 Beers. Add two 16oz. beers to any ticket for just $6</p>
+<p><strong>Sundays:</strong> Sunday Funday presented by Raising Cane's - Access the pregame skate -OR- Add a soda and choice of jumbo hot dog or nachos for just $3 </p>
+
+<div class="header1" style="margin-top:1em;">
+    <h3 style="color:#fff;">SEPTEMBER</h3>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>PRESEASON</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, September 28th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Texas Stars</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-09-28-2018/event/3A0054F3D38F39C9?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="header1">
+    <h3 style="color:#fff;">OCTOBER</h3>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>OPENING NIGHT</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, October 6th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Grand Rapids Griffins</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-10-06-2018/event/3A0054F3D371398C?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, October 9th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Milwaukee Admirals</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-10-09-2018/event/3A0054F3D377399C?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, October 12th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/rampage/coleagles.png" width="100%"></div>
+    <div class="col-sm-3 opponent">Colorado Eagles</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-10-12-2018/event/3A0054F3D39339CB?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, October 13th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/rampage/coleagles.png" width="100%"></div>
+    <div class="col-sm-3 opponent">Colorado Eagles</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-10-13-2018/event/3A0054F3D39639CF?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, October 19th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Manitoba Moose</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Sunday, October 21st</strong><br>2:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Manitoba Moose</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Tuesday, October 23rd</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Milwaukee Admirals</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Wednesday, October 24th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Rockford IceHogs</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>DIA DE LOS MUERTOS</strong>
+
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, October 26th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/405.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">San Jose Barracuda</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-10-26-2018/event/3A0054F3D39A39D1?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Sunday, October 28th</strong><br>3:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Chicago Wolves</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-10-28-2018/event/3A0054F3D39E39D3?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="header1">
+    <h3 style="color:#fff;">NOVEMBER</h3>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, November 2nd</strong><br>9:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/405.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ San Jose Barracuda</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, November 3rd</strong><br>8:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/406.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Stockton Heat</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Sunday, November 4th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/402.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Bakersfield Condors</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, November 10th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Texas Stars</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, November 11th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Texas Stars</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-11-11-2018/event/3A0054F3D3A239DE?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, November 13th</strong><br>10:30 AM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Manitoba Moose</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-11-13-2018/event/3A0054F3D3A639E1?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>HOCKEY FIGHTS CANCER</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, November 17th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Rockford IceHogs</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-11-17-2018/event/3A0054F3D3AF39E9?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, November 20th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Rockford IceHogs</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-11-20-2018/event/3A0054F3D3AB39E7?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, November 23rd</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Texas Stars</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-11-23-2018/event/3A0054F3D3B339F4?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, November 24th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Texas Stars</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Sunday, November 25th</strong><br>3:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Texas Stars</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-11-25-2018/event/3A0054F3D3DB3A3C?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, November 30th</strong><br>6:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Grand Rapids Griffins</div>
+</div>
+
+-->
+
+<div class="header1">
+    <h3 style="color:#fff;">DECEMBER</h3>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, December 1st</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Chicago Wolves</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Sunday, December 2nd</strong><br>4:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Rockford IceHogs</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Wednesday, December 5th</strong><br>6:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Grand Rapids Griffins</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>TEDDY BEAR TOSS</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, December 8th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Milwaukee Admirals</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-12-08-2018/event/3A0054F3D3F83A69?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>UGLY SWEATER NIGHT</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, December 14th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Iowa Wild</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-12-14-2018/event/3A0054F3D3BA39FD?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Sunday, December 16th</strong><br>3:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Iowa Wild</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-12-16-2018/event/3A0054F3D3DE3A41?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, December 21st</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Texas Stars</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, December 22nd</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Texas Stars</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-12-22-2018/event/3A0054F3D3FC3A6D?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Thursday, December 27th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Texas Stars</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, December 28th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/403.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Ontario Reign</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-12-28-2018/event/3A0054F3D3BE3A01?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Sunday, December 30th</strong><br>5:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Texas Stars</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-12-30-2018/event/3A0054F3D3E33A4D?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="header1">
+    <h3 style="color:#fff;">JANUARY</h3>
+</div>
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Wednesday, January 2nd</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Manitoba Moose</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-01-02-2019/event/3A0054F3D4123AA5?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, January 4th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Chicago Wolves</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, January 5th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Chicago Wolves</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Wednesday, January 9th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Iowa Wild</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-01-09-2019/event/3A0054F3D4173AAE?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, January 11th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Iowa Wild</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-01-11-2019/event/3A0054F3D3C33A0B?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, January 12th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Rockford IceHogs</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www1.ticketmaster.com/san-antonio-rampage-vs-rockford-icehogs-san-antonio-texas-01-12-2019/event/3A0054F3D3E83A52?artistid=838165&majorcatid=10004&minorcatid=9">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, January 15th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Rockford IceHogs</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www1.ticketmaster.com/san-antonio-rampage-vs-rockford-icehogs-san-antonio-texas-01-15-2019/event/3A0054F3D37B39A0?artistid=838165&majorcatid=10004&minorcatid=9">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, January 19th</strong><br>2:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Manitoba Moose</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Sunday, January 20th</strong><br>2:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Manitoba Moose</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Tuesday, January 22nd</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Milwaukee Admirals</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, January 25th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/404.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">San Diego Gulls</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-01-25-2019/event/3A0054F3D3C73A12?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, January 26th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/406.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Stockton Heat</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www1.ticketmaster.com/san-antonio-rampage-vs-stockton-heat-san-antonio-texas-01-26-2019/event/3A0054F3D37F39A6?artistid=838165&majorcatid=10004&minorcatid=9">Tickets</a></div>
+</div>
+
+<div class="header1">
+    <h3 style="color:#fff;">FEBRUARY</h3>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>PINK IN THE RINK</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, February 1st</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Grand Rapids Griffins</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-02-01-2019/event/3A0054F3D3CB3A17?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, February 8th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Iowa Wild</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, February 9th</strong><br>6:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Iowa Wild</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Tuesday, February 12th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Milwaukee Admirals</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, February 15th</strong><br>6:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Grand Rapids Griffins</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, February 16th</strong><br>6:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Grand Rapids Griffins</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Sunday, February 17th</strong><br>4:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Rockford IceHogs</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, February 22nd</strong><br>9:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/403.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">Ontario Reign</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, February 23rd</strong><br>9:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/404.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ San Diego Gulls</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Tuesday, February 26th</strong><br>8:05 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/rampage/coleagles.png" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Colorado Eagles</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Wednesday, February 27th</strong><br>8:05 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/rampage/coleagles.png" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Colorado Eagles</div>
+</div>
+
+-->
+
+<div class="header1">
+    <h3 style="color:#fff;">MARCH</h3>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>MILITARY APPRECIATION NIGHT</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, March 1st</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Milwaukee Admirals</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-01-2019/event/3A0054F3D3CF3A1D?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Sunday, March 3rd</strong><br>3:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Milwaukee Admirals</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-03-2019/event/3A0054F3D3EF3A59?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, March 5th</strong><br>10:30 AM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Chicago Wolves</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-05-2019/event/3A0054F3D38339A8?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, March 9th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Texas Stars</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-09-2019/event/3A0054F3D4003A70?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Sunday, March 10th</strong><br>5:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Texas Stars</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Tuesday, March 12th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Iowa Wild</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Friday, March 15th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Iowa Wild</div>
+</div>
+
+-->
+
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, March 19th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Grand Rapids Griffins</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-19-2019/event/3A0054F3D38739AE?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, March 23rd</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Chicago Wolves</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-23-2019/event/3A0054F3D4053A77?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>PUCKS AND PAWS NIGHT</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Sunday, March 24th</strong><br>3:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Grand Rapids Griffins</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-24-2019/event/3A0054F3D3F33A63?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, March 26th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Chicago Wolves</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-26-2019/event/3A0054F3D38B39B3?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, March 29th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Manitoba Moose</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-29-2019/event/3A0054F3D3D33A31?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, March 30th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Manitoba Moose</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-30-2019/event/3A0054F3D4093A80?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<div class="header1">
+    <h3 style="color:#fff;">APRIL</h3>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Tuesday, April 2nd</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Rockford IceHogs</div>
+</div>
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Wednesday, April 3rd</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Milwaukee Admirals</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="row theme">
+        <strong>FIRST RESPONDERS NIGHT</strong>
+    </div>
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, April 6th</strong><br>7:00 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/402.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Bakersfield Condors</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-04-06-2019/event/3A0054F3D40D3AA3?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Wednesday, April 10th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Texas Stars</div>
+</div>
+
+-->
+
+<div class="row gamerow home">
+    <div class="row theme">
+
+    </div>
+    <div class="col-sm-3 col-xs-4 day"><strong>Friday, April 12th</strong><br>7:30 PM</div>
+    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+    <div class="col-sm-3 opponent">Texas Stars</div>
+    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-04-12-2019/event/3A0054F3D3D73A3A?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
+</div>
+
+<!--
+
+<div class="row gamerow away">
+	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, April 13th</strong><br>7:00 PM</div>
+	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
+	<div class="col-sm-3 opponent">@ Texas Stars</div>
+</div>
+
+-->
+
+
+
+</body>
+</html>
