@@ -48,16 +48,6 @@
 </div>
 
 
-<div class="row gamerow home">
-    <div class="row theme">
-
-    </div>
-    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, October 13th</strong><br>7:00 PM</div>
-    <div class="col-sm-3 col-xs-4 logoimg"><img src="http://i.cdn.turner.com/nba/nba/.element/media/2.0/teamsites/spurs/Schad/img/rampage/coleagles.png" width="100%"></div>
-    <div class="col-sm-3 opponent">Colorado Eagles</div>
-    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-10-13-2018/event/3A0054F3D39639CF?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
-</div>
-
 <!--
 
 <div class="row gamerow away">
