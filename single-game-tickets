@@ -47,48 +47,6 @@
     <h3 style="color:#fff;">JANUARY</h3>
 </div>
 
-<!--
-
-<div class="row gamerow away">
-	<div class="col-sm-3 col-xs-4 day"><strong>Friday, January 4th</strong><br>7:00 PM</div>
-	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
-	<div class="col-sm-3 opponent">@ Chicago Wolves</div>
-</div>
-
-<div class="row gamerow away">
-	<div class="col-sm-3 col-xs-4 day"><strong>Saturday, January 5th</strong><br>7:00 PM</div>
-	<div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
-	<div class="col-sm-3 opponent">@ Chicago Wolves</div>
-</div>
-
--->
-
-<div class="row gamerow home">
-    <div class="col-sm-3 col-xs-4 day"><strong>Wednesday, January 9th</strong><br>7:00 PM</div>
-    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
-    <div class="col-sm-3 opponent">Iowa Wild</div>
-    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-01-09-2019/event/3A0054F3D4173AAE?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
-</div>
-
-<div class="row gamerow home">
-    <div class="row theme">
-
-    </div>
-    <div class="col-sm-3 col-xs-4 day"><strong>Friday, January 11th</strong><br>7:30 PM</div>
-    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
-    <div class="col-sm-3 opponent">Iowa Wild</div>
-    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-01-11-2019/event/3A0054F3D3C33A0B?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
-</div>
-
-<div class="row gamerow home">
-    <div class="row theme">
-
-    </div>
-    <div class="col-sm-3 col-xs-4 day"><strong>Saturday, January 12th</strong><br>7:00 PM</div>
-    <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
-    <div class="col-sm-3 opponent">Rockford IceHogs</div>
-    <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www1.ticketmaster.com/san-antonio-rampage-vs-rockford-icehogs-san-antonio-texas-01-12-2019/event/3A0054F3D3E83A52?artistid=838165&majorcatid=10004&minorcatid=9">Tickets</a></div>
-</div>
 
 <div class="row gamerow home">
     <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, January 15th</strong><br>7:00 PM</div>
