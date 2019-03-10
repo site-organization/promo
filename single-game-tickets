@@ -51,53 +51,6 @@
 </div>
 
 
-
-<div class="row gamerow home">
-    <div class="row theme">
-        <img src="http://www.sarampage.com/images/uploads/CCR-TicketBanner.png" width="100%" alt>
-    </div>
-    <div class="row theme">
-
-        <div class="row gamerow home">
-            <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, March 5th</strong><br>10:30 AM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/330.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">Chicago Wolves</div>
-            <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-05-2019/event/3A0054F3D38339A8?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
-        </div>
-
-        <div class="row gamerow home">
-            <div class="row theme">
-
-            </div>
-            <div class="col-sm-3 col-xs-4 day"><strong>Saturday, March 9th</strong><br>7:00 PM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">Texas Stars</div>
-            <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-09-2019/event/3A0054F3D4003A70?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
-        </div>
-
-        <!--
-
-        <div class="row gamerow away">
-            <div class="col-sm-3 col-xs-4 day"><strong>Sunday, March 10th</strong><br>5:00 PM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/380_57.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">@ Texas Stars</div>
-        </div>
-
-        <div class="row gamerow away">
-            <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, March 12th</strong><br>7:00 PM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">@ Iowa Wild</div>
-        </div>
-
-        <div class="row gamerow away">
-            <div class="col-sm-3 col-xs-4 day"><strong>Friday, March 15th</strong><br>7:00 PM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/389.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">@ Iowa Wild</div>
-        </div>
-
-        -->
-
-
         <div class="row gamerow home">
             <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, March 19th</strong><br>7:00 PM</div>
             <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/328_57.jpg" width="100%"></div>
