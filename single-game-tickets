@@ -46,53 +46,13 @@
 
 
 
-<div class="header1">
-    <h3 style="color:#fff;">MARCH</h3>
-</div>
 
-
-        <div class="row gamerow home">
-            <div class="row theme">
-
-            </div>
-            <div class="col-sm-3 col-xs-4 day"><strong>Saturday, March 30th</strong><br>7:00 PM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/321_57.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">Manitoba Moose</div>
-            <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-03-30-2019/event/3A0054F3D4093A80?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
-        </div>
 
         <div class="header1">
             <h3 style="color:#fff;">APRIL</h3>
         </div>
 
-        <!--
-
-        <div class="row gamerow away">
-            <div class="col-sm-3 col-xs-4 day"><strong>Tuesday, April 2nd</strong><br>7:00 PM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/372.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">@ Rockford IceHogs</div>
-        </div>
-
-        <div class="row gamerow away">
-            <div class="col-sm-3 col-xs-4 day"><strong>Wednesday, April 3rd</strong><br>7:00 PM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/327_57.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">@ Milwaukee Admirals</div>
-        </div>
-
-        -->
-
-        <div class="row gamerow home">
-            <div class="row theme">
-                <img src="http://www.nba.com/.element/media/2.0/teamsites/spurs/Rosalie/img/rampage/FRN-TicketBanner.png" width="100%" alt>
-            </div>
-            <div class="row theme">
-
-            </div>
-            <div class="col-sm-3 col-xs-4 day"><strong>Saturday, April 6th</strong><br>7:00 PM</div>
-            <div class="col-sm-3 col-xs-4 logoimg"><img src="https://assets.leaguestat.com/ahl/logos/402.jpg" width="100%"></div>
-            <div class="col-sm-3 opponent">Bakersfield Condors</div>
-            <div class="col-sm-3 col-xs-4"><a target="_blank" class="btn btn-success" href="https://www.ticketmaster.com/san-antonio-rampage-san-antonio-texas-04-06-2019/event/3A0054F3D40D3AA3?CAMEFROM=CFC_RAMPAGE_WEB_SCHEDULE_SINGLEGAMETICKETS">Tickets</a></div>
-        </div>
+        
 
         <!--
 
